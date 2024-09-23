@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/spFxHttpClient/SpFxHttpClientWebPart.manifest.json"
         }
       ]
+    },
+    "sp-fx-aad-http-client-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxAadHttpClient/SpFxAadHttpClientWebPart.js",
+          "manifest": "./src/webparts/spFxAadHttpClient/SpFxAadHttpClientWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SpFxHttpClientWebPartStrings": "lib/webparts/spFxHttpClient/loc/{locale}.js"
+    "SpFxHttpClientWebPartStrings": "lib/webparts/spFxHttpClient/loc/{locale}.js",
+    "SpFxAadHttpClientWebPartStrings": "lib/webparts/spFxAadHttpClient/loc/{locale}.js"
   }
 }
