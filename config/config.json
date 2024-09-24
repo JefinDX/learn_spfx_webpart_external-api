@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/spFxAadHttpClient/SpFxAadHttpClientWebPart.manifest.json"
         }
       ]
+    },
+    "ms-graph-sp-fx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msGraphSpFx/MsGraphSpFxWebPart.js",
+          "manifest": "./src/webparts/msGraphSpFx/MsGraphSpFxWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "SpFxHttpClientWebPartStrings": "lib/webparts/spFxHttpClient/loc/{locale}.js",
-    "SpFxAadHttpClientWebPartStrings": "lib/webparts/spFxAadHttpClient/loc/{locale}.js"
+    "SpFxAadHttpClientWebPartStrings": "lib/webparts/spFxAadHttpClient/loc/{locale}.js",
+    "MsGraphSpFxWebPartStrings": "lib/webparts/msGraphSpFx/loc/{locale}.js"
   }
 }
